@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+html { background-color:black} 
+
+#wrapper { width:1000px; background-color:#FFF ; margin:0 auto}
+
+#header { background: url(../Images/header-bg.png) repeat-x; height:181px;}
+
+#logo { float:right; margin-top:52px; margin-right:20px;}
+
+#slinks { padding: 131px 0 0 20px }
+
+#menu { background: url(../Images/Menu-bg.png) no-repeat; width:1000px; height:75px}
+
+/* menut styles  -->start */
+#navbar { float:right}
+#navbar ul { float:right}
+#navbar ul li { float:right; line-height:50px ; padding: 0 20px}
+#navbar ul li a { color: #595958; text-decoration:none; font-family:Tahoma, Geneva, sans-serif; font-size:16px}
+#navbar ul li:first-child a { color:#b3400f}
+#navbar ul li:hover a { color:#b3400f}
+/* menu styles --> end */
+
+#search { direction: rtl; float:left; margin-left:20px; line-height:48px; padding-top:10px}
+#search input[type=text] { width:172px; height:27px; padding-right:20px; border:1px solid #a5b2cd; color:#a5b2cd;
+font-family:Tahoma, Geneva, sans-serif; font-size:16px}
+#search input[type=submit] { background:url(../Images/search-button.png) no-repeat; width:68px; height:33px; border:0; float:left }
+
+#contents { width:1000px; clear:both;}
+#rightbar { width:156px; margin:0 20px; float:right;}
+
+#right-menu { direction:rtl; background:url(../Images/Right-Menu-bg.png) no-repeat; height:328px; font-family:Tahoma, Geneva, sans-serif; padding-right:22px }
+#right-menu h1 { color: #595958; font-size:18px; text-align:center; padding-top:18px; margin-bottom:18px; margin-right:-20px;}
+#right-menu ul li { list-style-image:url(../Images/arrow-bg.png)}
+#right-menu ul li a { text-decoration:none; color:#595958; font-size:16px; font-family:Tahoma, Geneva, sans-serif; line-height:120%;}
+#right-menu ul li:hover a { color:#b3400f}
+
+.right-ads { text-align:center; margin:10px auto}
+.right-ads img{ width:155px; height:246px}
+.right-ads h2 { font-family:Tahoma, Geneva, sans-serif; color:#F00;}
+.right-ads h3 { font-family:Tahoma, Geneva, sans-serif; color:#655555;}
+.right-ads a { text-decoration:none; color:#0000ff; font-family:Tahoma, Geneva, sans-serif}
+
+
+#left-content { float:left; width:770px}
+
+#upper-left-content { text-align:left} 
+.upper-ads { float:right; text-align:center; text-align:center; margin:10px 0 0 33px}
+.upper-ads img{ width:121px; height:188px}
+.upper-ads h2 { font-family:Tahoma, Geneva, sans-serif; color:#F00;}
+.upper-ads h3 { font-family:Tahoma, Geneva, sans-serif; color:#655555;}
+.upper-ads a { text-decoration:none; color:#0000ff; font-family:Tahoma, Geneva, sans-serif}
+
+
+#lower-left-content { width:737px; clear:both; min-height:150px; padding-top:20px}
+#head-left { background:url(../Images/more-bg.png) no-repeat; width:737px; height:32px; text-align:right;
+font-family:Tahoma, Geneva, sans-serif; color:white; line-height:250%; margin-left:35px}
+#head-left h1 { margin-right:10px; font-size:16px} 
+
+
+#lower-left-content-body { width:750px; min-height:150px; margin-left:22px;}
+
+.lower-books { width:352px; height:136px; float:right; margin:10px 0 10px 20px; direction:rtl;
+font-family:Tahoma, Geneva, sans-serif;color:#655555; line-height:150%; float:right;}
+.lower-books:hover{ background-color:#fff1e5; width:342px; height:126px; border-radius:7px; padding:5px}
+.lower-books img { float:right; margin-left:7px}
+.lower-books a {text-decoration:none; color:#0000ff; font-family:Tahoma, Geneva, sans-serif; float:left}
+.lower-books a:hover { color:red}
+.lower-books h2 span { color:red} 
+
+#footer { width:1000px ; height:50px; clear:both; text-align:center; line-height:250%}
+#footer hr { height:2px; background-color:#B3400F; border:0}
+#footer a { text-decoration:none; color:#655555; font-size:16px; font-family:Tahoma, Geneva, sans-serif }
+#footer a:hover{ color:#b3400f}
